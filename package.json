@@ -1,0 +1,24 @@
+{
+  "name": "isy",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0",
+    "mysql":"~2.11.1",
+    "sys":"~0.0.1",
+    "connect-redis":"~3.1.0",
+    "express-session":"~1.14.1",
+    "redis":"~2.6.2",
+    "ioredis":"~2.4.0",
+    "generic-pool":"2.4.3"
+  }
+}

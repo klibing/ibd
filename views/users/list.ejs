@@ -1,0 +1,23 @@
+<html>
+<title>用户列表</title>
+<body>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>帐号</th>
+        <th>密码</th>
+    </tr>
+    <%
+        users.forEach(function (item) {
+            %>
+                <tr>
+                    <td><%=item.id%></td>
+                    <td><%=item.username%></td>
+                    <td><%=item.password%></td>
+                </tr>
+            <%
+        });
+    %>
+</table>
+</body>
+</html>
